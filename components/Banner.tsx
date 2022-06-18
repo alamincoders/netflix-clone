@@ -15,7 +15,7 @@ function Banner({ netflixOriginals }: Props) {
   useEffect(() => {
     setMovie(netflixOriginals[Math.floor(Math.random() * netflixOriginals?.length)]);
   }, [netflixOriginals]);
-  console.log(movie);
+
   return (
     <section className="flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[65vh] lg:justify-end lg:pb-12">
       <div className="banner">
