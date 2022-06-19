@@ -19,7 +19,7 @@ const Home = ({ netflixOriginals, actionMovies, comedyMovies, documentaries, hor
   return (
     <div className="relative h-screen lg:h-[140vh]">
       <Head>
-        <title>Home --Netflix</title>
+        <title>Home --Netflix2</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* header */}
