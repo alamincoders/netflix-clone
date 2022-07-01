@@ -57,7 +57,11 @@ function login() {
           Sign In
         </button>
         <div className="text-[grey]">
-          New to Netflix? <button className="text-white hover:underline"> Sign up now</button>
+          New to Netflix?{" "}
+          <button onClick={() => setLogin(false)} type="submit" className="text-white hover:underline">
+            {" "}
+            Sign up now
+          </button>
         </div>
       </form>
     </section>
